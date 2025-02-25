@@ -1,0 +1,147 @@
+.consultas{
+   
+    font-family: var(--fonte-principal);
+    padding-bottom: 5em;
+}
+
+.consultas__titulo {
+    
+    color: var(--cor-fonte-destaque);
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.6em;
+    padding: 1em 1em 0 1em;
+
+}
+
+.consultas__card {
+    
+    background-color: var(--cor-bg-itens);
+    border: 1px solid var(--cor-borda-botao);
+    border-radius: 8px;
+    padding: 1em;
+    margin: 1em;
+   
+} 
+
+.consultas__card-avatar {
+
+    display: flex;
+
+}
+
+.consultas__card-paciente {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+/* .consultas__card-container {
+    
+} */
+
+.consultas__card-nome {
+
+    color: var(--cor-fonte-destaque);
+    font-size: .87em;
+    font-weight: 700;
+    line-height: 22.4px;
+
+}
+
+.consultas__card-tipo {
+    display: inline-flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.consultas__card-texto {
+
+    color:var(--cor-fonte-secundaria);
+    font-size: .75em;
+    font-weight: 400;
+    line-height: 1.12em;
+
+}
+
+/* .consultas__card-chat{
+} */
+
+.consultas__atendimento {
+
+     margin-top: 1em;
+     border-top: 1px solid var(--cor-borda-botao);
+     
+}
+
+.consultas__atendimento-horario {
+
+    color: var(--cor-fonte-destaque);
+    font-size: .75em;
+    font-weight: 500;
+    line-height: 1.2em;
+    margin: 1em 0 1.5em 0;
+
+}
+
+.consultas__ligacao {
+
+    display: flex;
+    justify-content: space-between;
+    font-size: .875em;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-align: center;
+
+}
+
+.consultas__ligacao-audio,
+.consultas__ligacao-video {
+    
+    
+    font-size: .875em;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    padding: 1em 1.5em;
+}
+
+.consultas__ligacao-video {
+    
+    color: var(--cor-bg-itens);
+    background-color: var(--cor-destaque-botao);
+}
+
+.consultas__ligacao-audio {
+
+    color: var(--cor-fonte-destaque);
+    background-color: var(--cor-bg-itens);
+    border: 1px solid var(--cor-borda-botao);
+
+}
+
+.consultas__endereco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-botao-endereco);
+    border: 1px solid var(--cor-botao-endereco);
+    border-radius: 8px;
+    text-align: center;
+    height: 2.5em;
+}
+
+.consultas__endereco-botao {
+
+    color: var(--cor-bg-itens);
+    font-weight: 500;
+    font-size: .875em;
+    line-height: 1.4em;
+    text-decoration: none;
+    
+
+}
+
+   

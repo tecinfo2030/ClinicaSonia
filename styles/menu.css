@@ -1,8 +1,15 @@
 .rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw; /* Garante que ocupe 100% da tela */
+    /* height: auto; */
     background-color: var(--cor-bg-itens);
     padding: 8px 14px;
-    /* border: 3px solid black; */
+    z-index: 1000;
+    overflow: hidden; 
 }
+
 
 .rodape__lista {
     display: inline-flex;
@@ -10,6 +17,4 @@
     align-items: center;
     width: 100%;
     height: auto;
-    
-    /* border: 3px solid purple; */
 }
