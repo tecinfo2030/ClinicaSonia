@@ -22,7 +22,9 @@ body {
 
 @media only screen and (min-width: 768px) {
     main {
+        
         margin-left: 80px; /* Empurra o conteúdo para a direita, respeitando o menu */
+        
     }
 }
 

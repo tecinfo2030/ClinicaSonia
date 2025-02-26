@@ -1,5 +1,5 @@
 .cabecalho {
-    
+       
     background-color: var(--cor-bg-itens);
     display: flex;
     justify-content: flex-start;
@@ -50,3 +50,8 @@
 }
 
 
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        margin-left: 80px; /* Move o cabeçalho para a direita, respeitando o menu lateral */
+    }
+}
