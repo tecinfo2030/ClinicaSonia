@@ -112,6 +112,7 @@
     
     color: var(--cor-bg-itens);
     background-color: var(--cor-destaque-botao);
+
 }
 
 .consultas__ligacao-audio {
@@ -131,6 +132,7 @@
     border-radius: 8px;
     text-align: center;
     height: 2.5em;
+
 }
 
 .consultas__endereco-botao {
@@ -144,4 +146,15 @@
 
 }
 
-   
+@media only screen and (min-width: 768px) {
+    
+   .consultas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Cria 2 colunas iguais */
+        gap: 1.5em; /* Espaçamento entre os cards */
+   }
+
+   .consultas__titulo{
+        grid-column: span 2; /* Faz com que o título ocupe as duas colunas */
+   }
+}
