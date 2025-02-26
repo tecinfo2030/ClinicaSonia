@@ -158,3 +158,16 @@
         grid-column: span 2; /* Faz com que o título ocupe as duas colunas */
    }
 }
+
+@media only screen and (min-width: 1440px) {
+    
+    .consultas {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr); /* Cria 2 colunas iguais */
+         gap: 1.5em; /* Espaçamento entre os cards */
+    }
+ 
+    .consultas__titulo{
+         grid-column: span 3; /* Faz com que o título ocupe as duas colunas */
+    }
+ }
