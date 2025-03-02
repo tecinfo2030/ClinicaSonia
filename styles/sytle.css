@@ -20,12 +20,30 @@ body {
     background-color: var(--cor-bg);
 }
 
+.botao-flutuante {
+    position: fixed;
+    bottom: 10em; /* Coloca o botão flutuante acima do menu */
+    right: 1em;   /* Posiciona o botão flutuante no lado direito */
+    height: 3.5em; /* altura do botão */
+    border: none; /*retira a borda do button */
+    background: none; /* retira o background do button */
+    cursor: pointer;
+    z-index: 100; /*Garante que fique acima de outros elementos */
+}
+
+.botao-flutuante img {
+    width: 100%; /* Ajusta a imagem ao botão */
+    height: auto;
+}   
+
 @media only screen and (min-width: 768px) {
     main {
         
         margin-left: 80px; /* Empurra o conteúdo para a direita, respeitando o menu */
         
     }
+
+    
 }
 
     
