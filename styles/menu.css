@@ -6,7 +6,7 @@
     /* height: auto; */
     background-color: var(--cor-bg-itens);
     padding: 8px 14px;
-    z-index: 1000;
+    z-index: 1;
     overflow: hidden; 
 }
 
