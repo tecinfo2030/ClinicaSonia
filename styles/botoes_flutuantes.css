@@ -1,0 +1,27 @@
+.botao-flutuante {
+    position: fixed;
+    bottom: 10em; /* Coloca o botão flutuante acima do menu */
+    right: 1em;   /* Posiciona o botão flutuante no lado direito */
+    height: 3.5em; /* altura do botão */
+    border: none; /*retira a borda do button */
+    background: none; /* retira o background do button */
+    cursor: pointer;
+    z-index: 100; /*Garante que fique acima de outros elementos */
+}
+
+.botao-flutuante img {
+    width: 100%; /* Ajusta a imagem ao botão */
+    height: auto;
+}
+
+.botao-flutuante-camera{
+    bottom: 15em; /* Coloca o botão flutuante acima do menu */
+}
+
+.botão-flutuante--pin{
+    bottom: 20em; /* Coloca o botão flutuante acima do menu */
+}
+
+.hidden {
+    display: none;
+}
